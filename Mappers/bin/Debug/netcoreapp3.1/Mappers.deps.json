@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Mappers/1.0.0": {
+        "dependencies": {
+          "BusinessLogicLayer": "1.0.0",
+          "Entities": "1.0.0"
+        },
+        "runtime": {
+          "Mappers.dll": {}
+        }
+      },
+      "BusinessLogicLayer/1.0.0": {
+        "runtime": {
+          "BusinessLogicLayer.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "runtime": {
+          "Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mappers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessLogicLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

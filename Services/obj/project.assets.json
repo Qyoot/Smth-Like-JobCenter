@@ -1,0 +1,151 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BusinessLogicLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BusinessLogicLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogicLayer.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      },
+      "Mappers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BusinessLogicLayer": "1.0.0",
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mappers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mappers.dll": {}
+        }
+      },
+      "Serialization/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Serialization.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Serialization.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessLogicLayer/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "msbuildProject": "../BusinessLogicLayer/BusinessLogicLayer.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "Mappers/1.0.0": {
+      "type": "project",
+      "path": "../Mappers/Mappers.csproj",
+      "msbuildProject": "../Mappers/Mappers.csproj"
+    },
+    "Serialization/1.0.0": {
+      "type": "project",
+      "path": "../Serialization/Serialization.csproj",
+      "msbuildProject": "../Serialization/Serialization.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BusinessLogicLayer >= 1.0.0",
+      "Entities >= 1.0.0",
+      "Mappers >= 1.0.0",
+      "Serialization >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Services\\Services.csproj",
+      "projectName": "Services",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\source\\repos\\Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\USER\\source\\repos\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+            },
+            "C:\\Users\\USER\\source\\repos\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\Entities\\Entities.csproj"
+            },
+            "C:\\Users\\USER\\source\\repos\\Mappers\\Mappers.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\Mappers\\Mappers.csproj"
+            },
+            "C:\\Users\\USER\\source\\repos\\Serialization\\Serialization.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\Serialization\\Serialization.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

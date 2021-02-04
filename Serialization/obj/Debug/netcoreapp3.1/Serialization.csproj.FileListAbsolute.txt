@@ -1,0 +1,9 @@
+C:\Users\USER\source\repos\Serialization\bin\Debug\netcoreapp3.1\Serialization.deps.json
+C:\Users\USER\source\repos\Serialization\bin\Debug\netcoreapp3.1\Serialization.dll
+C:\Users\USER\source\repos\Serialization\bin\Debug\netcoreapp3.1\Serialization.pdb
+C:\Users\USER\source\repos\Serialization\obj\Debug\netcoreapp3.1\Serialization.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Serialization\obj\Debug\netcoreapp3.1\Serialization.AssemblyInfo.cs
+C:\Users\USER\source\repos\Serialization\obj\Debug\netcoreapp3.1\Serialization.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Serialization\obj\Debug\netcoreapp3.1\Serialization.dll
+C:\Users\USER\source\repos\Serialization\obj\Debug\netcoreapp3.1\Serialization.pdb
+C:\Users\USER\source\repos\Serialization\obj\Debug\netcoreapp3.1\Serialization.csprojAssemblyReference.cache

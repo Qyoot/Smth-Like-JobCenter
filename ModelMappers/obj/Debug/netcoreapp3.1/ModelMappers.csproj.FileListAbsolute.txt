@@ -1,0 +1,14 @@
+C:\Users\USER\source\repos\ModelMappers\obj\Debug\netcoreapp3.1\ModelMappers.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\ModelMappers\obj\Debug\netcoreapp3.1\ModelMappers.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\ModelMappers\obj\Debug\netcoreapp3.1\ModelMappers.AssemblyInfo.cs
+C:\Users\USER\source\repos\ModelMappers\obj\Debug\netcoreapp3.1\ModelMappers.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\ModelMappers\bin\Debug\netcoreapp3.1\ModelMappers.deps.json
+C:\Users\USER\source\repos\ModelMappers\bin\Debug\netcoreapp3.1\ModelMappers.dll
+C:\Users\USER\source\repos\ModelMappers\bin\Debug\netcoreapp3.1\ModelMappers.pdb
+C:\Users\USER\source\repos\ModelMappers\bin\Debug\netcoreapp3.1\BusinessLogicLayer.dll
+C:\Users\USER\source\repos\ModelMappers\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\USER\source\repos\ModelMappers\bin\Debug\netcoreapp3.1\BusinessLogicLayer.pdb
+C:\Users\USER\source\repos\ModelMappers\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\USER\source\repos\ModelMappers\obj\Debug\netcoreapp3.1\ModelMappers.csproj.CopyComplete
+C:\Users\USER\source\repos\ModelMappers\obj\Debug\netcoreapp3.1\ModelMappers.dll
+C:\Users\USER\source\repos\ModelMappers\obj\Debug\netcoreapp3.1\ModelMappers.pdb

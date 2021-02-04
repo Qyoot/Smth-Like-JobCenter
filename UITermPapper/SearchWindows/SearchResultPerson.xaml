@@ -1,0 +1,67 @@
+﻿<Window x:Class="UITermPapper.SearchWindows.SearchResultPerson"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UITermPapper.SearchWindows"
+        mc:Ignorable="d"
+        Title="SearchResultPerson" Height="275" Width="650">
+    <Grid Margin="0,0,0,0">
+        <DataGrid CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" CanUserReorderColumns="False" AutoGenerateColumns="False" RowBackground="#6e6e6e" x:Name="DataGrid_Person_Search" Background="#6e6e6e"  >
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridCell}">
+                    <Style.Triggers>
+                        <Trigger Property="DataGridCell.IsSelected" Value="False">
+                            <Setter Property="Background" Value="#6e6e6e" />
+                        </Trigger>
+                        <Trigger Property="DataGridCell.IsSelected" Value="True">
+                            <Setter Property="Background" Value="#6e6e6e" />
+                        </Trigger>
+                        <Trigger Property="DataGridCell.IsSelected" Value="True">
+                            <Setter Property="BorderBrush" Value="Black" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTextColumn  Header="Name" Binding="{Binding First_Name, ValidatesOnDataErrors=True, ValidatesOnNotifyDataErrors=True,UpdateSourceTrigger=PropertyChanged}" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="DataGridCell.ToolTip"
+                                                Value="{Binding RelativeSource={RelativeSource Self},
+                                                 Path=(Validation.Errors)/ErrorContent}"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Last Name" Binding="{Binding Second_Name , ValidatesOnDataErrors=True, ValidatesOnNotifyDataErrors=True,UpdateSourceTrigger=PropertyChanged}" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="DataGridCell.ToolTip"
+                                                Value="{Binding RelativeSource={RelativeSource Self},
+                                                Path=(Validation.Errors)/ErrorContent}"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn  Header="City" Binding="{Binding City, ValidatesOnDataErrors=True, ValidatesOnNotifyDataErrors=True,UpdateSourceTrigger=PropertyChanged}" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="DataGridCell.ToolTip"
+                                                Value="{Binding RelativeSource={RelativeSource Self},
+                                                Path=(Validation.Errors)/ErrorContent}"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Gender" Binding="{Binding Gender,ValidatesOnDataErrors=True, ValidatesOnNotifyDataErrors=True}" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="DataGridCell.ToolTip"
+                                                Value="{Binding RelativeSource={RelativeSource Self},
+                                                Path=(Validation.Errors)/ErrorContent}"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
