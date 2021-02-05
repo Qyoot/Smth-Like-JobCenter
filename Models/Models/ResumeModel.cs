@@ -27,6 +27,16 @@ namespace Models
             this.sphere = sphere;
             this.expected_sallary = expected_sallary;
         }
+        public ResumeModel()
+        {
+            person = null;
+            higher_education = false;
+            eng_knowledge = false;
+            experience = 0;
+            about_person = null;
+            sphere = null;
+            expected_sallary = 0;
+        }
 
         public string Error => throw new Exception(Error);
 

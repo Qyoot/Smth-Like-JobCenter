@@ -38,18 +38,18 @@ namespace UITermPapper
         private AddVacanciesWin addVacancies = new AddVacanciesWin();
 
 
-        private string pathPerson = @"D:\ForFiles\PeopleData";
-        private string pathFirm = @"D:\ForFiles\FirmData";
+        private string pathPerson = @"PeopleData";
+        private string pathFirm = @"FirmData";
 
-        private string pathITResume = @"D:\ForFiles\ITResumeData";
-        private string pathDesignResume = @"D:\ForFiles\DesignResumeData";
-        private string pathMarketingResume = @"D:\ForFiles\MarketingResumeData";
-        private string pathManagementResume = @"D:\ForFiles\ManagementResumeData";
+        private string pathITResume = @"ITResumeData";
+        private string pathDesignResume = @"DesignResumeData";
+        private string pathMarketingResume = @"MarketingResumeData";
+        private string pathManagementResume = @"ManagementResumeData";
 
-        private string pathITVacancy = @"D:\ForFiles\ITVacancyData";
-        private string pathDesignVacancy = @"D:\ForFiles\DesignVacancyData";
-        private string pathMarketingVacancy = @"D:\ForFiles\MarketingVacancyData";
-        private string pathManagementVacancy = @"D:\ForFiles\ManagementVacancyData";
+        private string pathITVacancy = @"ITVacancyData";
+        private string pathDesignVacancy = @"DesignVacancyData";
+        private string pathMarketingVacancy = @"MarketingVacancyData";
+        private string pathManagementVacancy = @"ManagementVacancyData";
 
 
         private List<FirmModel> firms = new List<FirmModel>();

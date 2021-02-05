@@ -22,5 +22,12 @@ namespace Models
             this.resume = resume;
             this.vacancies = vacancies;
         }
+
+        public CategoryModel()
+        {
+            name = null;
+            resume = null;
+            vacancies = null;
+        }
     }
 }

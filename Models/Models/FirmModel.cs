@@ -90,5 +90,13 @@ namespace Models
             Quantity_of_employee = quantity_of_employee;
             Market_experience = market_experience;
         }
+
+        public FirmModel()
+        {
+            Name = null;
+            Sphere = null;
+            Quantity_of_employee = 0;
+            Market_experience = 0;
+        }
     }
 }

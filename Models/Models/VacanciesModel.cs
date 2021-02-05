@@ -29,16 +29,7 @@ namespace Models
             return Sphere + " " + Experience + " " + Sallary + " " + Address + " " + Firm.String;
         }
 
-        public VacanciesModel(FirmModel firm, string sphere, string address, bool higher_education, bool eng_knowledge, int experience, int sallary)
-        {
-            Firm = firm;
-            Sphere = sphere;
-            Address = address;
-            Higher_education = higher_education;
-            Eng_knowledge = eng_knowledge;
-            Experience = experience;
-            Sallary = sallary;
-        }
+        
 
         public string Error => throw new Exception(Error);     
 
@@ -115,6 +106,26 @@ namespace Models
                 }
                 return "";
             }
-        }    
+        }
+        public VacanciesModel(FirmModel firm, string sphere, string address, bool higher_education, bool eng_knowledge, int experience, int sallary)
+        {
+            Firm = firm;
+            Sphere = sphere;
+            Address = address;
+            Higher_education = higher_education;
+            Eng_knowledge = eng_knowledge;
+            Experience = experience;
+            Sallary = sallary;
+        }
+        public VacanciesModel()
+        {
+            firm = null;
+            sphere = null;
+            address = null;
+            higher_education = false;
+            eng_knowledge = false;
+            experience = 0;
+            expected_sallary = 0;
+        }
     }
 }
